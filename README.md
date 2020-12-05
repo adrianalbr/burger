@@ -1,45 +1,18 @@
-# burger
+# Eat the Burger
 
 ## Objective
 
 The objective of this application is to create a burger logger using mySQL, Node, Express, Handlebars and a homemade ORM
 
-# Node Express Handlebars
+## Installation
+To use this application visit - https://thawing-waters-82560.herokuapp.com
 
-### Overview
+## How it works
+The Eat the Burger application allows the user to select a burger from the order menu and eat it or delete it. Eaten burgers move to the devoured board and can be deleted as well.
+The user can also enter new burgers that will populate the order board and can be eaten or deleted.
 
-In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
-
-### Read This
-
-When trying to connect remotely to your Heroku database on an open network such as a coffee shop, library, or even your University WiFi, it will be blocked. If you are experiencing a Heroku connection error, this could be why.
-
-### Important
-
-* **This assignment must be deployed.** Be sure to utilize the [MYSQL Heroku Deployment Guide](../../04-Important/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
-
-### Before You Begin
-
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
-
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
-
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
-
-* Your app will store every burger in a database, whether devoured or not.
-
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
-
-
-
-### Submission on BCS
-
-* **This assignment must be deployed.** * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-
-## Instructions
-
-
-
+## Demo
+![Eat_the_burgerDemo](public/assets/Eat_the_burgerDemo.gif)
 
 
 #### Directory structure
@@ -79,30 +52,18 @@ When trying to connect remotely to your Heroku database on an open network such 
         └── main.handlebars
 ```
 
-### Reminder: Submission on BCS
+## Credits
+Eat the burger uses:
+- MySQL, Node, Express and Handlebars
+- For deployment it uses Heroku and JAWS
 
-* Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
+## Enjoy
 
-- - -
-
-
-
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+I hope that you enjoy devouring burgers
 
 - - -
 
-### Add To Your Portfolio
+All rights reserved Adriana Bonilla-Ramirez 2020
 
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
 
 
