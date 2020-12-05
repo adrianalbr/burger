@@ -14,45 +14,8 @@ The user can also enter new burgers that will populate the order board and can b
 ## Demo
 ![Eat_the_burgerDemo](public/assets/Eat_the_burgerDemo.gif)
 
-
-#### Directory structure
-
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-```
-
 ## Credits
+
 Eat the burger uses:
 - MySQL, Node, Express and Handlebars
 - For deployment it uses Heroku and JAWS
